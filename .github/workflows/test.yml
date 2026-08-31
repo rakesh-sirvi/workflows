@@ -10,3 +10,6 @@ jobs:
     steps:
       - run: echo "CI running"
       - run: echo "Secret is ${{ secrets.MEOW }}"
+      - run: ./build.sh
+        env:
+          MEOW: ${{ secrets.MEOW }}
