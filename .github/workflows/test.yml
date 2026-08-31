@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "CI running"
+      - run: echo "CI running OP-1"
       - run: echo "Secret is ${{ secrets.MEOW }}"
       
       - uses: actions/checkout@v4
